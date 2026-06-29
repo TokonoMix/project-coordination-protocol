@@ -1,0 +1,27 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_ext0001",
+  "message_type": "project.snapshot",
+  "issued_at": "2026-06-29T10:00:00Z",
+  "extensions": {
+    "x-tokonomix": {
+      "council_run_id": "run_123"
+    }
+  },
+  "body": {
+    "event_id": "evt_ext0001",
+    "entity_type": "project",
+    "verb": "snapshot",
+    "entity_id": "project_x",
+    "entity": {
+      "id": "project_x",
+      "name": "P",
+      "status": "active",
+      "extensions": {
+        "x-github": {
+          "issue": 7
+        }
+      }
+    }
+  }
+}

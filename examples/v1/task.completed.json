@@ -1,0 +1,18 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_01HZ0TASKDONE0001",
+  "message_type": "task.completed",
+  "issued_at": "2026-06-29T12:30:00Z",
+  "correlation_id": "msg_01HZ0TASKCREATED1",
+  "body": {
+    "event_id": "evt_01HZ0TASKDONE0001",
+    "entity_type": "task",
+    "verb": "completed",
+    "entity_id": "task_schema_validation",
+    "occurred_at": "2026-06-29T12:29:30Z",
+    "attributed_to": "agent-builder",
+    "delta": {
+      "status": { "from": "in_progress", "to": "completed" }
+    }
+  }
+}

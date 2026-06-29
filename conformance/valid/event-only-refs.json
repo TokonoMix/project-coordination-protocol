@@ -1,0 +1,18 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_refs001",
+  "message_type": "task.updated",
+  "issued_at": "2026-06-29T10:00:00Z",
+  "body": {
+    "event_id": "evt_refs001",
+    "entity_type": "task",
+    "verb": "updated",
+    "entity_id": "task_x",
+    "refs": [
+      {
+        "rel": "relates_to",
+        "ref": "task_y"
+      }
+    ]
+  }
+}

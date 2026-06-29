@@ -1,0 +1,18 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_uet0001",
+  "message_type": "epic.created",
+  "issued_at": "2026-06-29T10:00:00Z",
+  "body": {
+    "event_id": "evt_uet0001",
+    "entity_type": "epic",
+    "verb": "created",
+    "entity_id": "epic_x",
+    "refs": [
+      {
+        "rel": "relates_to",
+        "ref": "project_x"
+      }
+    ]
+  }
+}

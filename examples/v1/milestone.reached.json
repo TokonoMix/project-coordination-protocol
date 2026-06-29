@@ -1,0 +1,27 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_01HZ0MILESTONE001",
+  "message_type": "milestone.reached",
+  "issued_at": "2026-06-29T13:00:00Z",
+  "body": {
+    "event_id": "evt_01HZ0MILESTONE001",
+    "entity_type": "milestone",
+    "verb": "reached",
+    "entity_id": "milestone_v1_schemas",
+    "occurred_at": "2026-06-29T12:55:00Z",
+    "attributed_to": "pcp-working-group",
+    "entity": {
+      "id": "milestone_v1_schemas",
+      "project_id": "project_pcp",
+      "name": "v1 schemas complete",
+      "description": "All envelope, event, and entity schemas authored and validating.",
+      "status": "reached",
+      "target_date": "2026-06-29",
+      "criteria": [
+        "Ten schemas exist and load",
+        "All examples validate",
+        "Conformance corpus passes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_01HZ0REVIEWREQ001",
+  "message_type": "review_request.created",
+  "issued_at": "2026-06-29T10:15:00Z",
+  "correlation_id": "msg_01HZ0DECISION0001",
+  "body": {
+    "event_id": "evt_01HZ0REVIEWREQ001",
+    "entity_type": "review_request",
+    "verb": "created",
+    "entity_id": "review_envelope_design",
+    "attributed_to": "pcp-working-group",
+    "entity": {
+      "id": "review_envelope_design",
+      "subject_ref": "decision_thin_envelope",
+      "review_type": "architecture",
+      "status": "requested",
+      "requested_reviewers": ["security-reviewer", "architecture-reviewer"],
+      "summary": "Please review the thin-envelope decision for single-responsibility correctness."
+    }
+  }
+}

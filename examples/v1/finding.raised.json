@@ -1,0 +1,27 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_01HZ0FINDINGRAIS1",
+  "message_type": "finding.raised",
+  "issued_at": "2026-06-29T10:20:00Z",
+  "correlation_id": "msg_01HZ0REVIEWREQ001",
+  "body": {
+    "event_id": "evt_01HZ0FINDINGRAIS1",
+    "entity_type": "finding",
+    "verb": "raised",
+    "entity_id": "finding_actor_rename",
+    "attributed_to": "security-reviewer",
+    "entity": {
+      "id": "finding_actor_rename",
+      "subject_ref": "review_envelope_design",
+      "severity": "medium",
+      "category": "security",
+      "title": "Rename 'actor' to 'attributed_to' to avoid identity confusion",
+      "description": "The term 'actor' reads as an authenticated principal; a name that signals unverified attribution reduces trust-confusion.",
+      "location": { "ref": "schemas/v1/event.schema.json" },
+      "status": "resolved"
+    },
+    "refs": [
+      { "rel": "concerns", "ref": "decision_thin_envelope" }
+    ]
+  }
+}

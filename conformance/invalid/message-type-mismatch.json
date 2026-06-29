@@ -1,0 +1,18 @@
+{
+  "pcp_version": "1.0",
+  "message_id": "msg_mt0001",
+  "message_type": "task.updated",
+  "issued_at": "2026-06-29T10:00:00Z",
+  "body": {
+    "event_id": "evt_min0001",
+    "entity_type": "task",
+    "verb": "created",
+    "entity_id": "task_x",
+    "entity": {
+      "id": "task_x",
+      "project_id": "project_x",
+      "title": "A task",
+      "status": "todo"
+    }
+  }
+}
