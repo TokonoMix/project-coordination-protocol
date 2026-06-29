@@ -4,6 +4,17 @@ This document describes **who decides** what PCP is, and **how** changes to the
 protocol are proposed, reviewed, and recorded. `CONTRIBUTING.md` covers *how to
 contribute*; this document covers *who governs*.
 
+## Stewardship
+
+PCP was **initiated by the TokonoMix project** and is currently hosted under the
+TokonoMix GitHub organization. This is stewardship, not coupling: PCP is
+vendor-neutral and has **no dependency** on TokonoMix, AgentixMesh, or any other
+system, and the specification will never *require* them. As adoption grows,
+stewardship may move to a neutral organization (e.g. a dedicated `pcp-spec`
+organization); GitHub redirects keep old repository URLs working, so such a move
+is non-breaking. Whoever stewards PCP, the single-responsibility and
+vendor-neutrality rules below remain binding.
+
 ## Principles
 
 1. **Single responsibility is non-negotiable.** PCP defines only the structure of

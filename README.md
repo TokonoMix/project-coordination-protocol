@@ -1,6 +1,6 @@
 # Project Coordination Protocol (PCP)
 
-**PCP is an open, vendor-neutral, machine-readable semantic protocol for exchanging project-coordination information between AI agents and humans.**
+**Project Coordination Protocol (PCP) is an open, vendor-neutral protocol initiated by the TokonoMix project** — a machine-readable semantic protocol for exchanging project-coordination information between AI agents and humans.
 
 It defines *only the structure of project communication* — project status, tasks, dependencies, architecture impact, decisions, review requests, findings, milestones, and the events that record their changes — as JSON Schemas.
 
