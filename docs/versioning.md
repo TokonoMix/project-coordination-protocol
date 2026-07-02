@@ -41,6 +41,9 @@ Breaking changes ship as `v2` under a new namespace (`schemas/v2/`,
 
 ## The `$id` host
 
-`https://schemas.devcopro.org/v1/…` is a placeholder that
-implies no domain ownership. It is stable for this draft and will be confirmed or
-rebased at the v1.0 freeze; rebasing is a mechanical, non-semantic change.
+`https://schemas.devcopro.org/v1/…` is the **canonical, permanent** namespace for
+v1 schemas (SPEC §10.1). The domain is owned by the project and the v1 schema
+files are served at these URLs (`application/schema+json`). These identifiers are
+stable and will not be rebased within the v1 major version; a future major
+version would use its own `…/v2/…` namespace. Consumers **SHOULD** prefer
+bundled/cached schemas over live fetches.
